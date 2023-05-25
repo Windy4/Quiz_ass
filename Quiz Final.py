@@ -3,9 +3,33 @@ questions_2 = ["What is the largest planet in our solar system?", "Which animal 
 answers_2 = [["Earth", "Mars", "Jupiter", "Saturn"], ["Elephant", "Tiger", "Zebra", "Giraffe"]]
 correct_2 = [3, 3]
 # Declare the variables for the first quiz
-questions_1 = ["What is the capital of france?", "What is the formula for pressure?", "Who is credited with inventing the World Wide Web?"]
-answers_1 = [["Paris", "Italy", "Germany", "London"], ["p=f*a", "a=p/f", "p=f/a", "P=a/f"], ["Tim Berners-Lee", "Bill Gates", "Steve Jobs", "Mark Zuckerberg"]]
-correct_1 = [1, 3, 1]
+questions_1 = [
+"What is the largest planet in our solar system?",
+"Which animal is known for its black and white stripes?",
+"What is the capital city of France?",
+"What is the square root of 81?",
+"Which programming language is often used for web development?",
+"What is the symbol for the element hydrogen?",
+"What is the result of 5 multiplied by 9?",
+"Which famous scientist developed the theory of general relativity?",
+"What is the largest organ in the human body?",
+"What is the main function of a loop in programming?"
+]
+
+answers_1 = [
+["Earth", "Mars", "Jupiter", "Saturn"],
+["Elephant", "Tiger", "Zebra", "Giraffe"],
+["Paris", "London", "Berlin", "Madrid"],
+["9", "8", "7", "6"],
+["Python", "Java", "C++", "Ruby"],
+["H", "O", "He", "Hy"],
+["45", "50", "35", "40"],
+["Albert Einstein", "Isaac Newton", "Stephen Hawking", "Galileo Galilei"],
+["Heart", "Brain", "Liver", "Skin"],
+["To repeat a set of instructions for a specific number of times."]
+]
+
+correct_1 = [3, 3, 1, 1, 2, 1, 1, 1, 4, 4]
 # Declare the variable for the differance between quiz's
 min_age = 10
 
