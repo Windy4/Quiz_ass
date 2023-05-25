@@ -79,8 +79,15 @@ def start_quiz (age):
 
 
 class age_verification ():
-        age = int(input("How old are you?: "))
-        if age <= int(minage):
-            start_young_quiz(age)
+    check = 1
+    while check == 1:
+        age = input("How old are you?: ")
+        if isinstance(age, int):
+            check -= 0
+            if int(age) <= int(minage):
+                start_young_quiz(age)
+            else:
+                start_quiz(age)
         else:
-            start_quiz(age)
+            print("Non Integer, try again")
+
